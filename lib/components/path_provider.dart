@@ -54,11 +54,13 @@ class PathProviderState extends State<PathProvider> {
 
   @override
   Widget build(BuildContext context) {
-    return new Scaffold(
-      appBar: new AppBar(
-        title: new Text('path provider demo'),
-      ),
-      body: new Center(
+    return
+//      new Scaffold(
+//      appBar: new AppBar(
+//        title: new Text('path provider demo'),
+//      ),
+//      body:
+      new Center(
         child: new Column(
           mainAxisAlignment: MainAxisAlignment.spaceEvenly,
           children: <Widget>[
@@ -109,7 +111,7 @@ class PathProviderState extends State<PathProvider> {
             ),
           ],
         ),
-      ),
-    );
+      );
+//    );
   }
 }

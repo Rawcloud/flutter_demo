@@ -1,6 +1,7 @@
 import 'package:flutter/material.dart';
 //import 'components/path_provider.dart';
-import 'components/connectivity.dart';
+//import 'components/connectivity.dart';
+import 'components/slide_menu.dart';
 void main() => runApp(new MyApp());
 
 class MyApp extends StatelessWidget {
@@ -21,7 +22,7 @@ class MyApp extends StatelessWidget {
         primarySwatch: Colors.blue,
       ),
       //home: new MyHomePage(title: 'Flutter Demo Home Page'),
-      home: new MyConnectivity(),
+      home: new SlideMenu(),
       debugShowCheckedModeBanner: false,
     );
   }

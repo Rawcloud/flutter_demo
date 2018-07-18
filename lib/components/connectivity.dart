@@ -52,13 +52,16 @@ class MyConnectivityState extends State<MyConnectivity> {
 
   @override
   Widget build(BuildContext context) {
-    return new Scaffold(
-      appBar: new AppBar(
-        title: new Text('Connectivirty demo'),
-      ),
-      body: new Center(
+//    return new Scaffold(
+//      appBar: new AppBar(
+//        title: new Text('Connectivirty demo'),
+//      ),
+//      body: new Center(
+//        child: new Text('Connection Status:$_connectionStatus\n'),
+//      ),
+//    );
+    return new Center(
         child: new Text('Connection Status:$_connectionStatus\n'),
-      ),
-    );
+      );
   }
 }
